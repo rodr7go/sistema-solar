@@ -1,0 +1,268 @@
+body
+	margin 0
+	padding 0
+	font-family sans-serif
+	font-size 16px
+	background-image url("../img/universe.jpg")	
+	
+.Nav
+	display inline-block
+	margin 0
+	padding 0
+	
+	&-list
+		list-style none
+		margin 0
+		padding 0
+		
+	&-listItem
+		padding 1em
+		background #5F7C8A
+		margin .5em 0
+		border-radius 5px
+		text-align center
+		transition all .5s linear
+		&:hover
+			background lightblue
+			border-bottom 2px solid grey
+		a
+			text-decoration none
+			color white
+			padding 1em
+
+.Main-title
+	color white
+	font-weight lighter
+	text-align center
+	
+.mercury-orbit
+	width 30px
+	height 30px
+	border 1px solid white
+	border-radius 50%
+	position absolute
+	top 0
+	right 0
+	bottom 0
+	left 0
+	margin auto
+	display inline-block
+	transition all 3s linear
+	-webkit-animation rotar 2.5s infinite linear
+
+.mercury
+	width 15px
+	height 15px
+	border-radius 50%
+	left 0
+	margin auto
+	right 0
+	top -5px
+	display inline-block
+	position absolute
+	background-image url("../img/mercury.png")
+	background-size cover
+	
+.venus-orbit
+	width 80px
+	height 80px
+	border 1px solid white
+	border-radius 50%
+	position absolute
+	top 0
+	right 0
+	bottom 0
+	left 0
+	margin auto
+	display inline-block
+	transition all 3s linear
+	-webkit-animation rotar 3.5s infinite linear
+
+.venus
+	width 30px
+	height 30px
+	border-radius 50%
+	left 0
+	margin auto
+	right 0
+	top -15px
+	display inline-block
+	position absolute
+	background-image url("../img/venus.png")
+	background-size cover
+
+.earth-orbit
+	width 145px
+	height 145px
+	border 1px solid white
+	border-radius 50%
+	position absolute
+	top 0
+	right 0
+	bottom 0
+	left 0
+	margin auto
+	display inline-block
+	transition all 3s linear
+	-webkit-animation rotar 4.5s infinite linear
+
+.earth
+	width 40px
+	height 40px
+	border-radius 50%
+	left 0
+	margin auto
+	right 0
+	top -20px
+	display inline-block
+	position absolute
+	background-image url("../4img/earth.png")
+	background-size cover
+
+.mars-orbit
+	width 210px
+	height 210px
+	border 1px solid white
+	border-radius 50%
+	position absolute
+	top 0
+	right 0
+	bottom 0
+	left 0
+	margin auto
+	display inline-block
+	transition all 3s linear
+	-webkit-animation rotar 5.5s infinite linear
+
+.mars
+	width 20px
+	height 20px
+	border-radius 50%
+	left 0
+	margin auto
+	right 0
+	top -10px
+	display inline-block
+	position absolute
+	background-image url("../img/mars.png")
+	background-size cover
+
+.jupiter-orbit
+	width 300px
+	height 300px
+	border 1px solid white
+	border-radius 50%
+	position absolute
+	top 0
+	right 0
+	bottom 0
+	left 0
+	margin auto
+	display inline-block
+	transition all 3s linear
+	-webkit-animation rotar 6.5s infinite linear
+
+.jupiter
+	width 60px
+	height 60px
+	border-radius 50%
+	left 0
+	margin auto
+	right 0
+	top -30px
+	display inline-block
+	position absolute
+	background-image url("../img/jupiter.png")
+	background-size cover
+
+.saturn-orbit
+	width 420px
+	height 420px
+	border 1px solid white
+	border-radius 50%
+	position absolute
+	top 0
+	right 0
+	bottom 0
+	left 0
+	margin auto
+	display inline-block
+	transition all 3s linear
+	-webkit-animation rotar 7.5s infinite linear
+
+.saturn
+	width 100px
+	height 70px
+	border-radius 50%
+	left 0
+	margin auto
+	right 0
+	top -35px
+	display inline-block
+	position absolute
+	background-image url("../img/saturn.png")
+	background-size 100px 70px
+	// background-position 70% 100%
+
+.uranus-orbit
+	width 525px
+	height 525px
+	border 1px solid white
+	border-radius 50%
+	position absolute
+	top 0
+	right 0
+	bottom 0
+	left 0
+	margin auto
+	display inline-block
+	transition all 3s linear
+	-webkit-animation rotar 8.5s infinite linear
+
+.uranus
+	width 45px
+	height 45px
+	border-radius 50%
+	left 0
+	margin auto
+	right 0
+	top -22.5px
+	display inline-block
+	position absolute
+	background-image url("../img/uranus.png")
+	background-size cover
+
+.neptune-orbit
+	width 625px
+	height 625px
+	border 1px solid white
+	border-radius 50%
+	position absolute
+	top 0
+	right 0
+	bottom 0
+	left 0
+	margin auto
+	display inline-block
+	transition all 3s linear
+	-webkit-animation rotar 9.5s infinite linear
+
+.neptune
+	width 48px
+	height 48px
+	border-radius 50%
+	left 0
+	margin auto
+	right 0
+	top -24px
+	display inline-block
+	position absolute
+	background-image url("../img/neptune.png")
+	background-size cover
+
+@keyframes rotar
+	from
+		transform rotate(0deg)
+	
+	to
+		transform rotate(-360deg)
